@@ -5,6 +5,14 @@ $(document).ready(function(){
             $('#sg-week3').hide();
             $('#sg-week4').hide();
             $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+               
 
             var sideslider = $('[data-toggle=collapse-side]');
             var sel = sideslider.attr('data-target');
@@ -23,9 +31,187 @@ $(document).ready(function(){
 		// });
 			
 	});
-            $('#sg-week1-link').click(function(){
-                $('#sg-week1').slideDown();
-            });
+
+
+
+
+    $('#sg-week1-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week3').hide();
+            $('#sg-week4').hide();
+            $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+            $('#sg-week1').show();
+    });
+        $('#sg-week2-link').click(function(){
+            $('#sg-week1').hide();
+            $('#sg-week3').hide();
+            $('#sg-week4').hide();
+            $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+            $('#sg-week2').show();
+    });
+        $('#sg-week3-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week1').hide();
+            $('#sg-week4').hide();
+            $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+            $('#sg-week3').show();
+    });
+        $('#sg-week4-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week3').hide();
+            $('#sg-week1').hide();
+            $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+            $('#sg-week4').show();
+    });
+            $('#sg-week5-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week3').hide();
+            $('#sg-week4').hide();
+            $('#sg-week1').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+            $('#sg-week5').show();
+    });
+        $('#sg-week6-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week3').hide();
+            $('#sg-week4').hide();
+            $('#sg-week5').hide();
+            $('#sg-week1').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+            $('#sg-week6').show();
+    });
+        $('#sg-week7-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week3').hide();
+            $('#sg-week4').hide();
+            $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week1').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+            $('#sg-week7').show();
+    });
+        $('#sg-week8-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week3').hide();
+            $('#sg-week4').hide();
+            $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week1').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+            $('#sg-week8').show();
+    });
+        $('#sg-week9-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week3').hide();
+            $('#sg-week4').hide();
+            $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week1').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+            $('#sg-week9').show();
+    });
+        $('#sg-week10-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week3').hide();
+            $('#sg-week4').hide();
+            $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week1').hide();
+            $('#sg-week11').hide();
+            $('#sg-week12').hide();
+            $('#sg-week10').show();
+    });
+        $('#sg-week11-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week3').hide();
+            $('#sg-week4').hide();
+            $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week1').hide();
+            $('#sg-week12').hide();
+            $('#sg-week11').show();
+    });
+        $('#sg-week12-link').click(function(){
+            $('#sg-week2').hide();
+            $('#sg-week3').hide();
+            $('#sg-week4').hide();
+            $('#sg-week5').hide();
+            $('#sg-week6').hide();
+            $('#sg-week7').hide();
+            $('#sg-week8').hide();
+            $('#sg-week9').hide();
+            $('#sg-week10').hide();
+            $('#sg-week11').hide();
+            $('#sg-week1').hide();
+            $('#sg-week12').show();
+    });
+
+
+
+
+
+
+
+
+
 	//$('#portfolio-div').hide();
 	//$('#test').hide();
 	//$('#home-div').hide();
@@ -151,25 +337,6 @@ $(document).ready(function(){
             longRangeDiv.append('<div class = "col-md-2"><p>'+day3Temp+ '</p><br><img src="http://openweathermap.org/img/w/' + weatherObjects.list[2].weather[0].icon + '.png" height = "100"></div>');
             longRangeDiv.append('<div class = "col-md-2"><p>'+day4Temp+ '</p><br><img src="http://openweathermap.org/img/w/' + weatherObjects.list[3].weather[0].icon + '.png" height = "100"></div>');
             longRangeDiv.append('<div class = "col-md-2"><p>'+day5Temp+ '</p><br><img src="http://openweathermap.org/img/w/' + weatherObjects.list[4].weather[0].icon + '.png" height = "100"></div>');
-
-            // go through each of the returned contacts and append the info to the
-            // contactsDiv
-            // $.each(weatherObjects, function(index, weather) {
-            //     var temp = weatherObjects.main.temp;
-            //     var humidity = weatherObjects.main.humidity;
-            //     var wind = weatherObjects.wind.speed;
-            //     var iconId = weatherObjects.weather.icon;
-
-
-            //     //vat humidity =
-            //     //var wind =
-            //     weatherDiv.append('<h2> Current Conditions for ' + weatherObjects.name + '</h2>');
-            //     weatherDiv.append('<div class = "row"><div class="col-md-2" style="text-align: center"><img src="http://openweathermap.org/img/w/' + weatherObjects.weather[0].icon + '.png" height = "100"></div><div class = "col-md-2"><p> '+ weatherObjects.weather[0].main + ' : ' + weatherObjects.weather[0].description + '</p></div>' +
-            //                     '<div class ="col-md-4"><p> Temprature: '+ temp + ' ' + tempUnit + '</p>'
-            //                                          + '<p> Humidity: '+ humidity + '%' + '</p>'
-            //                                          +' <p> Wind: '+ wind + ' ' + windUnit + '/hour</p></div></div>'
-
-            //                     );
 
         },
         error: function() {
