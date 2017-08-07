@@ -24,10 +24,17 @@
                 height: 300px;
 
             }
+            img.profile {
+                
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                height: 175px;
+
+            }
         </style>
     </head>
     <header role="banner" class="navbar navbar-fixed-top navbar-inverse">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-left"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
             </div>
@@ -52,22 +59,27 @@
                     </div>
                 </div>
             </div>
-            <div class="container" id = "about-div" style="padding: 10px">
-                
-                <h2>About</h2>
+            <div class="container" id = "about-div" style="padding-top: 50px; padding-bottom: 50px">
                 <div class="row">
                     <div class="col-sm-3">
-                        <img class = "img-thumbnail img-responsive center-block" src="img/profile.jpg" style="max-width: 50%">
+                             <div class="media-middle align-self-center">
+                                <a href="#">
+                                    <img class="img-responsive center-block img-thumbnail profile" src="img/profile.jpg" alt="...">
+                                </a>
+                            </div>                   
                     </div>
+<!--                     <div class="col-sm-3">
+                        <img class = "img-thumbnail img-responsive center-block" src="img/profile.jpg" style="max-width: 50%">
+                    </div> -->
                     <div class= "col-sm-9">
-                        <p size= "30">Hello and welcome to my website!  My name is Kyle Packard and I am a tech lover who is aspiring to become a Software Developer.  While my formal education is is GIS, I have always wanted to be the one making the programs, not using them.  My time working as a GIS Technician has allowed time and training to make the career change.
+                        <p size= "30">Hello and welcome to my website!  My name is Kyle Packard and I am a tech lover who is aspiring to become a Software Developer.  While my formal education is is GIS, I have always wanted to be the one making the programs, not using them.  My experience working as a GIS Technician has allowed time and training to make the career change.
                         <br>
                         <br>
                         To make this change a reality I have been self teaching various coding languages(Python, Javascript.. See spacejunk). I also made the leap into a coding bootcamp called the Software Guild.  I have a write up on each week that goes by, check it out! This site is intended to act as both a Resume and Portfolio of my works.  You can visit my projects page to see products that I have been working on or visit the contact page if you want to get in touch. Thanks for stopping by!</p>
                     </div>
                 </div>              
             </div>
-            <div class="container-fluid" style="background-color: #f2f2f2; padding: 10px">
+            <div class="container-fluid" style="background-color: #f2f2f2; padding-bottom: 50px">
                 <div class ="container">
                 <h2>Tenchnical Skills</h2>
                 <div class="row">
@@ -110,27 +122,33 @@
                 <div class = "container" id="software-guild-div">
                     <div id="sg-overview">
                         <div class="row">
-                            <div class="media-middle align-self-center" style="padding: 50px">
-                                <a href="#">
+                            <div class="col-sm-6">
+                                <div class="media-middle align-self-center" style="padding: 50px">
+                                    <a href="#">
                                     <img class="img-responsive center-block img-thumbnail polaroid" src="img/sg-logo.jpg" alt="..." height ="300">
                                     <!-- d-flex align-self-center mr-3 --> 
-                                </a>
-                            </div>
-<!--                             <div class="col-sm-6 media">
-                                <div class="media-middle align-self-center">
-                                    <a href="#">
-                                    <img class="d-flex align-self-center mr-3 polaroid" src="img/sg-logo.jpg" alt="..." height ="300">
                                     </a>
-                                </div> -->
+                                </div>
                             </div>
+
                             <div class="col-sm-6">
                                     <h3 style="text-align: center">The Software Guild</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget cond</p>
+                                    <p>The Software Guild is an immersive 12 week coding bootcamp.  The majority of this bootcamp has a hands on feel which I love. We didn't just learn by reading chapters out of a curriculum, we learned by designing, implementing, and most importantly making mistakes! 
+                                    <br>
+                                    <br>
+                                    I attended the Java cohort which focuses on Java backend Development.  
+
+                                    The first 6 weeks focused on Object Oriented Programming.
+
+                                     The second 6 weeks focused on Data Driven Web Applications.  </p>
 
                             </div>
                         </div>
                     </div>
-                    <div id="sg-weekly">
+                </div>
+                <div class="container-fluid">
+                    <div id="sg-weekly" class="container">
+                        <div>
                         <ul class="nav nav-tabs">
                             <li role="presentation"><a id="sg-week1-link">Week 1</a></li>
                             <li role="presentation"><a href="#">Week 2</a></li>
@@ -140,11 +158,11 @@
                             <li role="presentation"><a href="#">Week 6</a></li>
                             <li role="presentation"><a href="#">Week 7</a></li>
                         </ul>
+                        </div>
                         <br>
                         <div id="sg-week1">
-                            <div class = "row">
-                                <div class = "col-md-6">
-                                    <div class="row">
+                            <div class = "col-sm-6">
+                                
                                         <h4>Week 1</h4>
                                         <ul>
                                                 <li>Boolean Expressions and Controlling Program Flow</li>
@@ -153,22 +171,24 @@
                                                 <li>Arrays</li>
                                                 <li>summative- ROCK,PAPER,SCISSORS</li>
                                         </ul>
-                                    </div>
-                                    <div class = "row">
+                                
+                                
+
+
+                        <br>
+                        <br>
                                         <p>
                                         Week one was a crash course on basic programming concepts.  We set up our IDE’s, issue tracking, and code review tools.  After we were up and running we dove right into controlling program flow, boolean expressions, methods, arrays, and debugging.  This week of the bootcamp significantly solidified prior programming concepts that I had self taught previously.  
 
                                         The summative project for this week was to create a basic Rock, Paper, Scissors game.  This project was intended to be in a single main class with optional methods.  The outut is designed to be printed into the consol. 
                                         </p>
-                                    </div>
-                                </div>  
-                                <div class="col-md-6">
-                            <!-- <button data-toggle="collapse" type ="button"  data-target="#RPS" id="RPSButton">Rock Paper Scissors code</button> -->
+                               
+                            </div>  
+                            <div class="col-sm-6" >
                                     <br>
-                                    <div id ="RPS1" class=" pre-scrollable" style="border-top: solid;border-bottom: solid;border-width: 1px">
+                                    <div id ="RPS1" class="pre-scrollable" style="border-top: solid;border-bottom: solid;border-width: 1px" >
                                         <script src="https://gist.github.com/Kpacka/dfd2d1e9c2c8d37bdb7d574af62b96b3.js"></script>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         <br>
@@ -230,22 +250,21 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-   
             <div class = "container-fluid" style="background-color: #f2f2f2">
                 <div class="container">
                     <div class="col-sm-6" style="vertical-align: center">
                             <h3 style="text-align: center">Space Junk</h3>
-                            <p>Space Junk is a game that I developed using the Unity game engine.  All the code was written using UnityScript, a similar dialect to JavaScript.  I created all the sprites using an open source vector graphic editor. This is only the first version of the game with many more updates in the works.
+                            <p>Space Junk is a concept I designed for self teaching programming.  It is a simple side scroller where the only goal is to pilot your rocket ship as long as possible while avoiding aestroids.  I designed and implented this project using a trial by error approach.  I had not yet completed much serious educaton in coding, I just knew that I wanted to complete the project.
+                            <br>
+                            <br>
+                            All the code for this game is written using UnityScript, a similar dialect to JavaScript.  I designed all of the sprites and graphics using an open source vector graphic editor.  While this specific version is lacking in game content, I designed it so that I can quickly add features in the future.
                             <br>
                             <br>
                                 http://kylepackard.com/Space_Junk_1.01/index.html
                             </p>
-                            <button data-toggle="collapse" type ="button"  data-target="#RPS" id="show-sg-weekly">See Weekly Write-up</button>
                     </div>
                     <div class="col-sm-6" style="text-align: center">
-                            <div class="media-middle align-self-center" style="padding: 50px">
+                            <div class="media-middle align-self-center" style="margin: 50px">
                                 <a href="#">
                                     <img class="img-responsive center-block img-thumbnail polaroid" src="img/SpaceJunk.png" alt="..." height ="300">
                                 </a>
@@ -255,7 +274,7 @@
                 </div>
             </div>
                 
-                <div id="wordpress-div" class="container-fluid">
+                <div id="wordpress-div" class="container">
                     <div id="sg-overview">
                         <div class="row">
                             <div class="col-sm-6" style="text-align: center">
@@ -267,7 +286,9 @@
                             </div>
                             <div class="col-sm-6">
                                 <h3 style="text-align: center">Wordpress</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget cond</p>
+                                <p>KylePackard.com was originally designed using Wordpress.  While functionally Wordpress is great for this type of website, I wanted to design my own from the ground up.  The result is the website you currently are on.  It is designed using Bootstrap frameworks and jQuery calls.
+                                <br><br>
+                                This was my first endevour into web development so I chose a quick platform for release.  This was a great opportinity to dip my feet in web development.  This website is only kept for legacy reasons and will not be updated.</p>
  
                             </div>
 
@@ -277,6 +298,7 @@
 
 
                 <div id="weather-div" class="container-fluid" style="background-color: #f2f2f2">
+                    <div class="container">
                     <div id="sg-overview">
                         <div class="row">
 
@@ -285,8 +307,41 @@
                         </div>
                         <div class="col-sm-6">
                             <h3 style="text-align: center">Open Weather Map API</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget cond</p>
-                            <button data-toggle="collapse" type ="button"  data-target="#RPS" id="show-sg-weekly">See Weekly Write-up</button>
+                            <p>This project utilizes the Open Weather Map API to retrieve weather data for a given zip code.  I utilized Ajax GET calls to retrieve JSON data from the source. I then parsed the data and displayed in the web page using jQery.  Enjoy the Weather!  </p>
+                            <form class="form-vertical" role="form" id="">
+                            <div class="form-group">
+                                <div class="form-group col-sm-2">
+                                    <label for="add-zip" class="control-label">
+                                    Zip Code
+                                    </label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="text"
+                                           class="form-control"
+                                           id="get-zip"
+                                           placeholder="Zip Code" required/>
+                                </div>
+                                <div class="form-group col-sm-2">
+                                    <label for="add-first-name" class="col-sm-1 control-label">
+                                        Units:
+                                    </label>
+                                </div>
+
+                                <div class="form-group col-sm-2">
+                                    <select class="form-control" id="weather-unit">
+                                        <option value = "metric">Celsius</option>
+                                        <option value = "imperial">Fahrenheit</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-sm-2">
+                                    <button type="button"
+                                            id="getWeather"
+                                            class="btn btn-default">
+                                        Get!
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
                         </div>
                     </div>
                     <div class="col-sm-6" style="text-align: center">
@@ -299,46 +354,9 @@
                         </div>
 
                     </div>
-                </div>
-                <div class="container-fluid" style="background-color: #f2f2f2">
-                    <h1 id="mainHeading">Local Weather</h1>
-                    <hr/>
+                    </div>              
 
                     <div class="container">
-                        <form class="form-horizontal" role="form" id="">
-                            <div class="form-group">
-                                <label for="add-first-name" class="col-md-2 control-label">
-                                    Zip Code
-                                </label>
-
-                                <div class="col-md-4">
-                                    <input type="text"
-                                           class="form-control"
-                                           id="get-zip"
-                                           placeholder="Zip Code" required/>
-                                </div>
-                                <div class="form-group">
-                                    <label for="add-first-name" class="col-md-1 control-label">
-                                        Units:
-                                    </label>
-                                </div>
-
-                                <div class="col-md-2">
-                                    <select class="form-control" id="weather-unit">
-                                        <option value = "metric">Celsius</option>
-                                        <option value = "imperial">Fahrenheit</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-1">
-                                    <button type="button"
-                                            id="getWeather"
-                                            class="btn btn-default">
-                                        Get!
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-
                         <hr/>
                         <div id ="weatherSpecifics">
 
@@ -352,6 +370,7 @@
 
                     </div>
                 </div>
+
         </div>
 
 
