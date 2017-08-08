@@ -6,7 +6,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/custom.css">
         <style>
-            /* Remove the navbar's default margin-bottom and rounded borders */ 
+             
             .navbar {
                 margin-bottom: 0;
                 border-radius: 0;
@@ -16,6 +16,17 @@
             footer {
                 background-color: black;
                 padding: 25px;
+            }
+            p { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 16px; line-height: 30px; margin: 0 0 0px; }
+            ul { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 16px; line-height: 25px; margin: 0 0 24px; }
+            .vertical-align {
+    display: flex;
+    align-items: center;
+}
+            div.gist {
+                
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                height: 350px;
             }
             img.polaroid {
                 
@@ -53,14 +64,14 @@
             <div id = "kyle-intro-image" class = "myImage" style="background-color: transparent; height: 500px">
                 <div class="jumbotron" style="background-color: transparent">
                     <div class="container text-center" style="background-color: transparent">
-                        <h1>Kyle Packard</h1>      
-                        <p>A Web Portfolio displaying the works</p>
-                        <p>of an aspiring Software Developer</p>
+                        <h1>Kyle Packard</h1> 
+                        <h4>Software Developer</h4>    
+             
                     </div>
                 </div>
             </div>
-            <div class="container" id = "about-div" style="padding-top: 50px; padding-bottom: 50px">
-                <div class="row">
+            <div class="container" id = "about-div" style="padding-top: 20px; padding-bottom: 20px">
+                <div class="row vertical-align">
                     <div class="col-sm-3">
                              <div class="media-middle align-self-center">
                                 <a href="#">
@@ -68,14 +79,11 @@
                                 </a>
                             </div>                   
                     </div>
-<!--                     <div class="col-sm-3">
-                        <img class = "img-thumbnail img-responsive center-block" src="img/profile.jpg" style="max-width: 50%">
-                    </div> -->
                     <div class= "col-sm-9">
-                        <p size= "30">Hello and welcome to my website!  My name is Kyle Packard and I am a tech lover who is aspiring to transition careers into software development.  While my formal education is is GIS, I have always wanted to be the one making the programs, not using them.  My experience working as a GIS Technician has allowed time and training to make the career change.
+                        <p>Hello and welcome to my website!  My name is Kyle Packard and I am a tech lover who is aspiring to transition careers into software development.  While my formal education is is GIS, I have always wanted to be the one making the programs, not using them.  My experience working as a GIS Technician has allowed time and training to make the career change.
                         <br>
                         <br>
-                        To make this change a reality I started with the self teaching route where I mostly focused on Python.  The self teaching gave a great look into development and the challenges that it gives.  I decided to make the leap into a coding bootcamp called the Software Guild that I recently graduated from.  I have a write up on each week so you can see what the curruculum looked like, check it out! This site is intended to act as both a Resume and Portfolio of my works.  Thanks for stopping by!</p>
+                        To make this change a reality I started with the self teaching route where I mostly focused on Python.  The self teaching gave a great look into development and the challenges that it gives.  I decided to make the leap into a coding bootcamp called the Software Guild that I recently graduated from.  I have a write up on each week so you can see what the curriculum looked like, check it out! This site is intended to act as both a Resume and Portfolio of my works.  Thanks for stopping by!</p>
                     </div>
                 </div>              
             </div>
@@ -121,23 +129,22 @@
                 </div>
                 <div class = "container" id="software-guild-div">
                     <div id="sg-overview">
-                        <div class="row">
+                        <div class="row vertical-align" style="margin-bottom: 20px">
                             <div class="col-sm-6">
-                                <div class="media-middle align-self-center" style="padding: 50px">
+                                <div class="media-middle align-self-center" style="padding: 50px;">
                                     <a href="#">
                                     <img class="img-responsive center-block img-thumbnail polaroid" src="img/sg-logo.jpg" alt="..." height ="300">
-                                    <!-- d-flex align-self-center mr-3 --> 
                                     </a>
                                 </div>
                             </div>
 
                             <div class="col-sm-6">
                                     <h3 style="text-align: center">The Software Guild</h3>
-                                    <p>The Software Guild is an immersive 12 week coding bootcamp that offers a unique backend development curriculum for Minnesota.  The program hit the ground running hard and fast. The first 6 weeks was focused on object orientated principals and capped with a summative assesment.  The last 6 weeks was focused on data driven web apps where we learned to sync databases and gather/retreive data for display.  The whole course then finished with both an individual and group summative assignment.  
+                                    <p>The Software Guild is an immersive 12 week bootcamp that offers a unique backend development curriculum.  The program hit the ground running hard and fast. The first 6 weeks was focused on object orientated principals and capped with a summative assessment.  The last 6 weeks was focused on data driven web apps where we learned to sync databases and gather/retrieve data for display.  The whole course then finished with both an individual and group summative assignment.  
                                     <br>
                                     <br>
-                                    The majority of this bootcamp had a hands on feel which I love.  We would warm up most days with simple, but effective, coding challenges or thought problems.  We didn't just learn by reading chapters out of a curriculum, we learned by designing, implementing, and most importantly making mistakes!  This coding first mentality is the real winner.  I applied with some knowledge of how to write code and graduated with a real understanding of how to create full stack appliations.
-                    
+                                    The majority of this bootcamp had a hands on feel which I loved.  We would warm up most days with simple, but effective, coding challenges or thought problems.  We didn't just learn by reading chapters out of a book, we learned by designing, implementing, and most importantly, making mistakes!  This coding first mentality is the real winner in my book.  When I applies with some knowledge of how to write code and graduated with a real understanding of how to create full stack applications.
+                                    </p>
                                
 
                             </div>
@@ -145,7 +152,7 @@
                     </div>
                 </div>
                 <div class="container-fluid">
-                    <div id="sg-weekly" class="container">
+                    <div id="sg-weekly" class="container" style="margin-bottom: 50px">
                         <div>
                         <ul class="nav nav-tabs">
                             <li role="presentation"><a id="sg-week1-link">Week 1</a></li>
@@ -164,117 +171,101 @@
                         </div>
                         <br>
                         <div id="sg-week1">
+                        <div class="row vertical-align">
                             <div class = "col-sm-6">                          
-                                <h4>Week 1</h4>
-                                        <ul>
-                                                <li>Boolean Expressions and Controlling Program Flow</li>
+                                <h4>Week 1 - Java Basics</h4>
+                                    <ul>
+                                                <li>Types and Variables</li>
+                                                <li>Boolean Expressions</li>
+                                                <li>Program Flow</li>
                                                 <li>Debugging</li>
                                                 <li>Methods</li>
                                                 <li>Arrays</li>
-                                                <li>summative- ROCK,PAPER,SCISSORS</li>
                                         </ul>
-                        <br>
-                        <br>
+
                             <p>
-                                Week one was a crash course on work environments and basic programming concepts.  We set up our IDE’s, issue tracking, and code review tools.  After we were up and running we dove right into controlling program flow, boolean expressions, methods, arrays, and debugging.  This week of the bootcamp significantly solidified prior programming concepts that I had self taught previously.  
-                                <br><br>
-                                A large takeaway for me was learning about DRY and how to reduce program complexity.  Hiding methods inside the class (for this week) was a great way to sepeate concerns and not repeat code every time.  This concept is fundemental to coding and stuck with me the entire bootcamp.
-                                <br><br>
-                                The summative project for this week was to create a basic Rock, Paper, Scissors console game.  The requirements stated that it was required to be contained inside a single class with optional additional methods.  
+                            My highlighted code for the week is the summative project for week 1.  The assignment was to create a basic Rock, Paper, Scissors console game to play against a computer.  The requirements stated that all code was to be contained inside a single class with optional additional methods.  
                             </p>
                                
                             </div>  
                             <div class="col-sm-6" >
                                     <br>
-                                    <div id ="RPS1" class="pre-scrollable" style="border-top: solid;border-bottom: solid;border-width: 1px" >
+                                    <div id ="RPS1" class="pre-scrollable gist" >
                                         <script src="https://gist.github.com/Kpacka/dfd2d1e9c2c8d37bdb7d574af62b96b3.js"></script>
                                     </div>
                             </div>
                         </div>
+                        </div>
                         
-                        <div id="sg-week2">
-                            <h4>Week 2</h4>
-                            <ul>
-                                <li>Object-Oriented Concepts</li>
-                                <li>Classes,Objects, and Creating New Types</li>
-                                <li>References, Storage, and Memory Management</li>
-                                <li>Interface, Composition, Inheritance</li>
-                                <li>Data Marshalling and Unmarshalling</li>
-                                <li>MVC and Tiered Application Design Concepts for CRUD</li>
-                                <li>Software Development Lifecycle</li>
-                                <li>sumative- AddressBook</li>
-                            </ul>
-                            <br>
-                            Week two was jokingly referred to as the “face melter week” and it did not disappoint.  This is where my work prior to the bootcamp really payed off.  This week we worked through Object-Orientated Concepts, Classes, and Types, Memory Management, Composition and Inheritance, Data Marshalling, MVC and Tiered Application Design Concepts for CRUD, and Software Development Lifecycles.  
-                            <br>
-                            Prior to this week I had a good understanding of how writing code works syntactically.  As in I understood how what I had to write to complete a task, not the reason why we wrote the code in such ways.  This week really opened my eyes to the OBJECT in OOP languages and working through Objects.  We also got our first introduction to SOLID.  Specifically the (**Separation of duties**) was a concept that I had been thinking over in my head on how developers executed.(**write MORE on this topic**)
-                            <br>
-                            The Summative assignment this week was to create our first CRUD console application, an Address Book.  We first designed this program using ((***scratch paper techniques**)).  Then we structured our program into the View, Controller, and Dao (data access object).  
-                            <br>
+                        <div id="sg-week2" >
+                            <div class="row vertical-align">
+                                <div class="col-sm-6">
+                                <h4>Week 2 - Classes and Objects </h4>
+                                    <ul>
+                                                <li>Object-Oreinted Concepts</li>
+                                                <li>Classes and Objects</li>
+                                                <li>Memory Managment</li>
+                                                <li>Interfaces, Composition, and Inheritance</li>
+                                                <li>Collections and Maps</li>
+                                    </ul>
+                                <p>
+                                I want to highlight the controller for a DVD Library app I created.  We were introduced to separating logical components of an app into individual classes. This controller is the logic behind the app and delegates responsibilities. Any user view or interaction is handled by the View, and and Data concern is handled by the DAO. This is a simple but effective way to write safe and clean code.
+                                </p>  
+                                <br>
+                                </div>
+                                <div class="col-sm-6">                           
+                                    <div id ="RPS1" class="pre-scrollable gist" >
+                                        <script src="https://gist.github.com/Kpacka/9a9b57a90f14d409e25f782687ad0733.js"></script>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div id="sg-week3">
-                            <h4>Week 3</h4>
-                            <ul>
-                                <li>unit testing (stateless and stateful)</li>
-                                <li>Enums, JavaDateTime, BigDecimal</li>
-                                <li>Lambdas, Streams</li>
-                                <li>summative- Vending Machine</li>
-                            </ul>
-                            <br>
-                            Week 3 was an intro into using libraries and JavaDocs.  The way this course is set up is that as the weeks go by the instructors will “give” out less information and make the students look it up. So with the introduction to BigDecimal and JavaDateTime we then had to learn implentation through JavaDocs with some instructor assistance.  
-                            <br>
-                            Alsong with this was our first introduction to unit testing.  This is a powerful tool for testing methods as you build the application.  
-                            <br>
-                            The summative assignment for this week was to create a virtual vending machine.  This still follows a basic CRUD Application.  This week included a service(business logic) layer in our design.  We also had to include a full set of unit testing for our DAO and Service Layers.  We are still using console outputs for this application, UX design comes after week 5.
-                            <br>
-                        </div>
-                        <div id="sg-week4">
-                            <h4>week 4</h4>
-                            <ul>
-                                <li>summative - Spring and AOP vendingMachine</li>
-                            </ul>
-                            <br>
-                            This week we had an introduction to Spring Framework and Maven.  We also had an introduction to Aspect Oreinteated Programming.  
-                            * Special Note
-                            I had a big blocker this week regarding AOP injections.   My bug was that I was     trying to create a logger every time an exception was thrown.  the method that I was trying to create the point cut on was called inside the object that was calling it.  This call was never captured by the proxy because the method call never left the object.  Overall I spend a lot of time reading through the Docs on AOP and throughout testing my method for a simple fix.  Even though i spent a good amount of time on this I take it as a positive.  I would have never learned the knowledge I have on Spring and AOP without this bug if i wrote my code correct the first time.
+                            <div class="row vertical-align">
+                            <div class="col-sm-6">
+                            <h4>Week 3 - Intermediate Java</h4>
+                                    <ul>
+                                                <li>Service Layer</li>
+                                                <li>Unit Testing</li>
+                                                <li>Javadoc's</li>
+                                                <li>Libraries</li>
+                                                <li>Lambdas, Streams, and Aggregates</li>
+                                                <li>Enums</li>
+                                    </ul>
 
-                            <br>
-                            summative - Spring and AOP vendingMachine
+                            <p>                             
+                            My code highlight for this week is the Service layer for our summative assessment.  The project was to create a vending machine for the console that reads/writes from a file.  This business logic layer is another step in separating concerns while writing applications.  It has no concern of the inventory items, only that there is sufficient stock and money.  
+                            </p>
+                            </div>
+                            <div class ="col-sm-6">
+                                <div id ="RPS1" class="pre-scrollable gist" >
+                                        <script src="https://gist.github.com/Kpacka/a01c25cd3c3709abf8c2418456d72d15.js"></script>
+                                    </div>
+                            </div>
+                            </div>
+                            </div>
+                            
+                        
+                        <div id="sg-week4">
+                            <h4>week 4 - Advanced Java</h4>
+                            <p>Coming Soon</p>
                         </div>
                         <div id="sg-week5">
                             <h4>week 5</h4>
+                            <p>Coming Soon</p>
 
-
-                            summative, Flooring Mastery Project
 
                         </div>
                         <div id="sg-week6">
                             <div class = "col-sm-6">
                                 
-                                        <h4>Week 1</h4>
-                                        <ul>
-                                                <li>Boolean Expressions and Controlling Program Flow</li>
-                                                <li>Debugging</li>
-                                                <li>Methods</li>
-                                                <li>Arrays</li>
-                                                <li>summative- ROCK,PAPER,SCISSORS</li>
-                                        </ul>
-                                
-                                
-
-
-                        <br>
-                        <br>
-                                        <p>
-                                        Week one was a crash course on basic programming concepts.  We set up our IDE’s, issue tracking, and code review tools.  After we were up and running we dove right into controlling program flow, boolean expressions, methods, arrays, and debugging.  This week of the bootcamp significantly solidified prior programming concepts that I had self taught previously.  
-
-                                        The summative project for this week was to create a basic Rock, Paper, Scissors game.  This project was intended to be in a single main class with optional methods.  The outut is designed to be printed into the consol. 
-                                        </p>
+                                        <h4>Week 6</h4>
+                                        <p>Coming Soon</p>
                                
                             </div>  
                             <div class="col-sm-6" >
                                     <br>
-                                    <div id ="RPS1" class="pre-scrollable" style="border-top: solid;border-bottom: solid;border-width: 1px" >
+                                    <div id ="RPS1" class="pre-scrollable gist" >
                                         <script src="https://gist.github.com/Kpacka/dfd2d1e9c2c8d37bdb7d574af62b96b3.js"></script>
                                     </div>
                             </div>
@@ -282,30 +273,13 @@
                         <div id="sg-week7">
                             <div class = "col-sm-6">
                                 
-                                        <h4>Week 1</h4>
-                                        <ul>
-                                                <li>Boolean Expressions and Controlling Program Flow</li>
-                                                <li>Debugging</li>
-                                                <li>Methods</li>
-                                                <li>Arrays</li>
-                                                <li>summative- ROCK,PAPER,SCISSORS</li>
-                                        </ul>
-                                
-                                
-
-
-                        <br>
-                        <br>
-                                        <p>
-                                        Week one was a crash course on basic programming concepts.  We set up our IDE’s, issue tracking, and code review tools.  After we were up and running we dove right into controlling program flow, boolean expressions, methods, arrays, and debugging.  This week of the bootcamp significantly solidified prior programming concepts that I had self taught previously.  
-
-                                        The summative project for this week was to create a basic Rock, Paper, Scissors game.  This project was intended to be in a single main class with optional methods.  The outut is designed to be printed into the consol. 
-                                        </p>
+                                        <h4>Week 7</h4>
+                                        <p>Coming Soon</p>
                                
                             </div>  
                             <div class="col-sm-6" >
                                     <br>
-                                    <div id ="RPS1" class="pre-scrollable" style="border-top: solid;border-bottom: solid;border-width: 1px" >
+                                    <div id ="RPS1" class="pre-scrollable gist" >
                                         <script src="https://gist.github.com/Kpacka/dfd2d1e9c2c8d37bdb7d574af62b96b3.js"></script>
                                     </div>
                             </div>
@@ -313,30 +287,14 @@
                         <div id="sg-week8">
                             <div class = "col-sm-6">
                                 
-                                        <h4>Week 1</h4>
-                                        <ul>
-                                                <li>Boolean Expressions and Controlling Program Flow</li>
-                                                <li>Debugging</li>
-                                                <li>Methods</li>
-                                                <li>Arrays</li>
-                                                <li>summative- ROCK,PAPER,SCISSORS</li>
-                                        </ul>
-                                
-                                
-
-
-                        <br>
-                        <br>
-                                        <p>
-                                        Week one was a crash course on basic programming concepts.  We set up our IDE’s, issue tracking, and code review tools.  After we were up and running we dove right into controlling program flow, boolean expressions, methods, arrays, and debugging.  This week of the bootcamp significantly solidified prior programming concepts that I had self taught previously.  
-
-                                        The summative project for this week was to create a basic Rock, Paper, Scissors game.  This project was intended to be in a single main class with optional methods.  The outut is designed to be printed into the consol. 
-                                        </p>
+                                        <h4>Week 8</h4>
+                                        <p>Coming Soon</p>
+                    
                                
                             </div>  
                             <div class="col-sm-6" >
                                     <br>
-                                    <div id ="RPS1" class="pre-scrollable" style="border-top: solid;border-bottom: solid;border-width: 1px" >
+                                    <div id ="RPS1" class="pre-scrollable gist">
                                         <script src="https://gist.github.com/Kpacka/dfd2d1e9c2c8d37bdb7d574af62b96b3.js"></script>
                                     </div>
                             </div>
@@ -344,30 +302,13 @@
                         <div id="sg-week9">
                             <div class = "col-sm-6">
                                 
-                                        <h4>Week 1</h4>
-                                        <ul>
-                                                <li>Boolean Expressions and Controlling Program Flow</li>
-                                                <li>Debugging</li>
-                                                <li>Methods</li>
-                                                <li>Arrays</li>
-                                                <li>summative- ROCK,PAPER,SCISSORS</li>
-                                        </ul>
-                                
-                                
-
-
-                        <br>
-                        <br>
-                                        <p>
-                                        Week one was a crash course on basic programming concepts.  We set up our IDE’s, issue tracking, and code review tools.  After we were up and running we dove right into controlling program flow, boolean expressions, methods, arrays, and debugging.  This week of the bootcamp significantly solidified prior programming concepts that I had self taught previously.  
-
-                                        The summative project for this week was to create a basic Rock, Paper, Scissors game.  This project was intended to be in a single main class with optional methods.  The outut is designed to be printed into the consol. 
-                                        </p>
+                                        <h4>Week 9</h4>
+                                        <p>Coming Soon</p>
                                
                             </div>  
                             <div class="col-sm-6" >
                                     <br>
-                                    <div id ="RPS1" class="pre-scrollable" style="border-top: solid;border-bottom: solid;border-width: 1px" >
+                                    <div id ="RPS1" class="pre-scrollable gist" >
                                         <script src="https://gist.github.com/Kpacka/dfd2d1e9c2c8d37bdb7d574af62b96b3.js"></script>
                                     </div>
                             </div>
@@ -375,30 +316,13 @@
                         <div id="sg-week10">
                             <div class = "col-sm-6">
                                 
-                                        <h4>Week 1</h4>
-                                        <ul>
-                                                <li>Boolean Expressions and Controlling Program Flow</li>
-                                                <li>Debugging</li>
-                                                <li>Methods</li>
-                                                <li>Arrays</li>
-                                                <li>summative- ROCK,PAPER,SCISSORS</li>
-                                        </ul>
-                                
-                                
-
-
-                        <br>
-                        <br>
-                                        <p>
-                                        Week one was a crash course on basic programming concepts.  We set up our IDE’s, issue tracking, and code review tools.  After we were up and running we dove right into controlling program flow, boolean expressions, methods, arrays, and debugging.  This week of the bootcamp significantly solidified prior programming concepts that I had self taught previously.  
-
-                                        The summative project for this week was to create a basic Rock, Paper, Scissors game.  This project was intended to be in a single main class with optional methods.  The outut is designed to be printed into the consol. 
-                                        </p>
+                                        <h4>Week 10</h4>
+                                        <p>Coming Soon</p>
                                
                             </div>  
                             <div class="col-sm-6" >
                                     <br>
-                                    <div id ="RPS1" class="pre-scrollable" style="border-top: solid;border-bottom: solid;border-width: 1px" >
+                                    <div id ="RPS1" class="pre-scrollable gist">
                                         <script src="https://gist.github.com/Kpacka/dfd2d1e9c2c8d37bdb7d574af62b96b3.js"></script>
                                     </div>
                             </div>
@@ -406,30 +330,14 @@
                         <div id="sg-week11">
                             <div class = "col-sm-6">
                                 
-                                        <h4>Week 1</h4>
-                                        <ul>
-                                                <li>Boolean Expressions and Controlling Program Flow</li>
-                                                <li>Debugging</li>
-                                                <li>Methods</li>
-                                                <li>Arrays</li>
-                                                <li>summative- ROCK,PAPER,SCISSORS</li>
-                                        </ul>
-                                
-                                
-
-
-                        <br>
-                        <br>
-                                        <p>
-                                        Week one was a crash course on basic programming concepts.  We set up our IDE’s, issue tracking, and code review tools.  After we were up and running we dove right into controlling program flow, boolean expressions, methods, arrays, and debugging.  This week of the bootcamp significantly solidified prior programming concepts that I had self taught previously.  
-
-                                        The summative project for this week was to create a basic Rock, Paper, Scissors game.  This project was intended to be in a single main class with optional methods.  The outut is designed to be printed into the consol. 
-                                        </p>
+                                        <h4>Week 11</h4>
+                                        <p>Coming Soon</p>
+ 
                                
                             </div>  
                             <div class="col-sm-6" >
                                     <br>
-                                    <div id ="RPS1" class="pre-scrollable" style="border-top: solid;border-bottom: solid;border-width: 1px" >
+                                    <div id ="RPS1" class="pre-scrollable gist">
                                         <script src="https://gist.github.com/Kpacka/dfd2d1e9c2c8d37bdb7d574af62b96b3.js"></script>
                                     </div>
                             </div>
@@ -437,30 +345,18 @@
                         <div id="sg-week12">
                             <div class = "col-sm-6">
                                 
-                                        <h4>Week 1</h4>
-                                        <ul>
-                                                <li>Boolean Expressions and Controlling Program Flow</li>
-                                                <li>Debugging</li>
-                                                <li>Methods</li>
-                                                <li>Arrays</li>
-                                                <li>summative- ROCK,PAPER,SCISSORS</li>
-                                        </ul>
-                                
-                                
-
-
-                        <br>
-                        <br>
+                                        <h4>Week 12</h4>
                                         <p>
-                                        Week one was a crash course on basic programming concepts.  We set up our IDE’s, issue tracking, and code review tools.  After we were up and running we dove right into controlling program flow, boolean expressions, methods, arrays, and debugging.  This week of the bootcamp significantly solidified prior programming concepts that I had self taught previously.  
-
-                                        The summative project for this week was to create a basic Rock, Paper, Scissors game.  This project was intended to be in a single main class with optional methods.  The outut is designed to be printed into the consol. 
+                                        Final Week! Week 12 was mostly a work week to finish the CMS with the team.  Working as a group presented so many difficulties that were unseen with individual projects.  We had to delegate duties, resolve merge conflicts, rely on others for deadlines, and more.  I liked the project because of these difficulties.  As a software developer I will run into these problems and need to be prepared. 
+                                        <br>
+                                        <br>
+                                        The code I highlighted for this week is the DAO I created for uploading a static page.  All created pages are stored in the database and displayed using the JSP.  While not the hardest concept the logic, code, and implementation came easily.  I proved the concept with a test project and delivered the working product.
                                         </p>
                                
                             </div>  
                             <div class="col-sm-6" >
                                     <br>
-                                    <div id ="RPS1" class="pre-scrollable" style="border-top: solid;border-bottom: solid;border-width: 1px" >
+                                    <div id ="RPS1" class="pre-scrollable gist" >
                                         <script src="https://gist.github.com/Kpacka/dfd2d1e9c2c8d37bdb7d574af62b96b3.js"></script>
                                     </div>
                             </div>
@@ -471,18 +367,18 @@
                 <div class="container">
                     <div class="col-sm-6" style="vertical-align: center">
                             <h3 style="text-align: center">Space Junk</h3>
-                            <p>Space Junk is a concept I designed for self teaching programming.  It is a simple side scroller where the only goal is to pilot your rocket ship as long as possible while avoiding aestroids.  I designed and implented this project using a trial by error approach.  I had not yet completed much serious educaton in coding, I just knew that I wanted to complete the project.
+                            <p>Space Junk is a concept I designed for self teaching programming.  It is a simple side scroller where the only goal is to pilot your rocket ship as long as possible while avoiding astroids.  I designed and implemented this project using a trial by error approach.  I had not yet completed much serious education in coding, I just knew that I wanted to complete the project.
                             <br>
                             <br>
                             All the code for this game is written using UnityScript, a similar dialect to JavaScript.  I designed all of the sprites and graphics using an open source vector graphic editor.  While this specific version is lacking in game content, I designed it so that I can quickly add features in the future.
                             <br>
                             <br>
-                                http://kylepackard.com/Space_Junk_1.01/index.html
+                                <a href="http://kylepackard.com/Space_Junk_1.01/index.html" style="text-align: center">Click to Play!<a>
                             </p>
                     </div>
                     <div class="col-sm-6" style="text-align: center">
                             <div class="media-middle align-self-center" style="margin: 50px">
-                                <a href="#">
+                                <a href="http://kylepackard.com/Space_Junk_1.01/index.html">
                                     <img class="img-responsive center-block img-thumbnail polaroid" src="img/SpaceJunk.png" alt="..." height ="300">
                                 </a>
                             </div>
@@ -496,7 +392,7 @@
                         <div class="row">
                             <div class="col-sm-6" style="text-align: center">
                                 <div class="media-middle align-self-center" style="padding: 50px">
-                                    <a href="#">
+                                    <a href="/wordpress">
                                         <img class="img-responsive center-block img-thumbnail polaroid" src="img/Wordpress_Portfoliotest.png" alt="..." height ="200">
                                     </a>
                                 </div>
@@ -505,7 +401,7 @@
                                 <h3 style="text-align: center">Wordpress</h3>
                                 <p>KylePackard.com was originally designed using Wordpress.  While functionally Wordpress is great for this type of website, I wanted to design my own from the ground up.  The result is the website you currently are on.  It is designed using Bootstrap frameworks and jQuery calls.
                                 <br><br>
-                                This was my first endevour into web development so I chose a quick platform for release.  This was a great opportinity to dip my feet in web development.  This website is only kept for legacy reasons and will not be updated.</p>
+                                This was my first endeavor into web development so I chose a quick platform for release.  This was a great opportunity to dip my feet in web development.  This website is only kept for legacy reasons and will not be updated.</p>
  
                             </div>
 
